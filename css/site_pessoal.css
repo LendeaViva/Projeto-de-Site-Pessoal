@@ -6,13 +6,17 @@ h1 {
     font-size: 60px;
     font-family: Verdana;
     text-align: center;
-    background-color: papayawhip
+    background-color: papayawhip;
+    border: 2px solid #BDB2FF;
+    
 }
 
 h2 {
     color: white;
     font-family: Verdana;
     text-align: center;
+    padding: 20px;
+
 }
 
 p {
