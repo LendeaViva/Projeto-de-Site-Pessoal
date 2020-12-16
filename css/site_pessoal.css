@@ -1,0 +1,21 @@
+body {
+    background-color: #9BF6FF;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Verdana;
+    text-align: center;
+    background-color: papayawhip
+}
+
+h2 {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: Verdana
+}
