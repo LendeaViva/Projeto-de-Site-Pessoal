@@ -1,13 +1,14 @@
 body {
-    background-color: #9BF6FF;
+    background-color: #151019;
 }
 
 h1 {
     font-size: 60px;
     font-family: Raleway;
     text-align: center;
-    background-color: papayawhip;
-    border: 2px solid #BDB2FF;
+    color: lightblue;
+    background-image: url("../img/header_background.png");
+    padding: 150px;
 }
 
 h2 {
@@ -20,6 +21,7 @@ h2 {
 p {
     text-align: center;
     font-family: Raleway;
+    color:white
 }
 
 /*Estilos dos links*/
@@ -34,23 +36,23 @@ a:visited {
 }
 
 a:hover {
-    color: black;
+    color: cornflowerblue;
     text-decoration: none;
 }
 
 /*Estilos específicos do header das subpáginas*/ 
 a:link#voltarIndex {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:visited#voltarIndex {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 a:hover#voltarIndex {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
