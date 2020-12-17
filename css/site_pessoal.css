@@ -4,22 +4,54 @@ body {
 
 h1 {
     font-size: 60px;
-    font-family: Verdana;
+    font-family: Raleway;
     text-align: center;
     background-color: papayawhip;
     border: 2px solid #BDB2FF;
-    
 }
 
 h2 {
     color: white;
-    font-family: Verdana;
+    font-family: Oswald;
     text-align: center;
     padding: 20px;
 
 }
-
 p {
     text-align: center;
-    font-family: Verdana
+    font-family: Raleway;
 }
+
+/*Estilos dos links*/
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*Estilos específicos do header das subpáginas*/ 
+a:link#voltarIndex {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited#voltarIndex {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover#voltarIndex {
+    color: black;
+    text-decoration: none;
+}
+
+
