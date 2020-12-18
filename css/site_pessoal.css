@@ -3,16 +3,28 @@ body {
 }
 
 /*Estilo do header*/
+
+header {
+    background-image: url("../img/header_background.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 100px;
+    margin: 0px;
+}
 h1 {
     font-size: 60px;
     font-family: Raleway;
     text-align: center;
     color: lightblue;
-    background-image: url("../img/header_background.png");
-    padding: 100px;
     margin: 0px;
+    
 }
-
+.subtitulo{
+    font-size: 20px;
+    font-family: 'Lucida Console';
+    text-align: center;
+    color: white;
+}
 /*Estilos específicos do header das subpáginas*/
 a:link#voltarIndex {
     color: white;
