@@ -125,9 +125,6 @@ section {
     animation: fadeIn .5s ease-in;
 }
 
-.animacao{
-    -webkit-
-}
 .animate-out {
     -webkit-transition: opacity .5s;
     transition: opacity .5s;
