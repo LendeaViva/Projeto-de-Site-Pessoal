@@ -1120,9 +1120,10 @@ figure.compessoais.hover:after {
     color: black;
     background-color: #b5b5b5;
     transform: rotateY(180deg);
-    border-radius: 5%
+    border-radius: 5%;
+    text-align: left;
+    padding: 10px;
 }
-
 
 .flip card h1 {
     font-weight: 500;
