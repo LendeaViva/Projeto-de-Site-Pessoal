@@ -1083,9 +1083,10 @@ figure.compessoais.hover:after {
 /*cartões, tirado de: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card*/
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 200px;
     height: 200px;
     perspective: 1000px;
+    margin: 20px;
 }
 
 .flip-card-inner {
@@ -1125,6 +1126,7 @@ figure.compessoais.hover:after {
     padding: 10px;
 }
 
-.flip card h1 {
+.flip-card-front h1 {
     font-weight: 500;
+    font-size: 25px;
 }
