@@ -901,12 +901,12 @@ section.contact-me {
     font-size: 25px;
 }
 
-/*Tutorial: https://dev.to/vaibhavkhulbe/let-s-make-and-wear-those-css-3-progress-rings-2ngf */
+/*Anéis retirados do tutorial: https://dev.to/vaibhavkhulbe/let-s-make-and-wear-those-css-3-progress-rings-2ngf */
 
 .rings {
     display: flex;
     flex-direction: row;
-    margin-left: 490px;
+    /*margin-left: 490px;*/
 }
 
 .percent1, .percent2, svg, circle {
@@ -921,6 +921,7 @@ circle {
     transform: translate(10px, 10px);
     stroke-dasharray: 440;
     stroke-linecap: round;
+    
 }
 
     circle:nth-child(1) {
@@ -930,27 +931,30 @@ circle {
 
 .percent1 circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 75) / 100);
-    stroke: gold;
+    stroke: #94BF53;
     animation: percent 1.5s linear;
     animation-delay: 1s;
 }
 
 .percent2 circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 33) / 100);
-    stroke: salmon;
+    stroke: #FF006A;
     animation: percent 1.8s linear;
     animation-delay: 1.2s;
 }
 
 .number {
     position: relative;
-    bottom: 190px;
-    right: -50px;
+    bottom: 165px;
+    right: -20px;
     color: #fff;
+    padding: 12px;
+  
 }
 
-h2 {
-    font-size: 48px;
+.number h2 {
+    font-size: 20px;
+    text-align: center;
 }
 
 span {
@@ -959,11 +963,11 @@ span {
 }
 
 .percent1 span {
-    color: gold;
+    color: #94BF53;
 }
 
 .percent2 span {
-    color: salmon;
+    color: #FF006A;
 }
 
 @keyframes percent {
