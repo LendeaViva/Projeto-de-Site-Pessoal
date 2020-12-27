@@ -952,6 +952,14 @@ circle {
   
 }
 
+.rings-icon {
+    position: relative;
+    bottom: 150px;
+    right: -35px;
+    width: 60px;
+    height: 60px;
+}
+
 .number h2 {
     font-size: 20px;
     text-align: center;
