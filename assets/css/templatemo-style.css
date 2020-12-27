@@ -919,7 +919,7 @@ circle {
     fill: none;
     stroke-width: 10;
     transform: translate(10px, 10px);
-    stroke-dasharray: 440;
+    stroke-dasharray: 320;
     stroke-linecap: round;
     
 }
@@ -930,14 +930,14 @@ circle {
     }
 
 .percent1 circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    stroke-dashoffset: calc(320 - (320 * 75) / 100);
     stroke: #94BF53;
     animation: percent 1.5s linear;
     animation-delay: 1s;
 }
 
 .percent2 circle:nth-child(2) {
-    stroke-dashoffset: calc(440 - (440 * 33) / 100);
+    stroke-dashoffset: calc(320 - (320 * 33) / 100);
     stroke: #FF006A;
     animation: percent 1.8s linear;
     animation-delay: 1.2s;
@@ -957,8 +957,8 @@ circle {
     position: relative;
     bottom: 150px;
     right: -35px;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 0px;
 }
 
 .number h2 {
@@ -988,97 +988,6 @@ span {
     }
 }
 
-/*Competências pessoais*/
-figure.compessoais {
-    overflow: hidden;
-    text-align: center;
-    -webkit-perspective: 50em;
-    perspective: 50em;
-}
-
-figure.compessoais * {
-    -webkit-box-sizing: padding-box;
-    box-sizing: padding-box;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-}
-
-figure.compessoais figcaption {
-    top: 50%;
-    left: 20px;
-    right: 20px;
-    position: absolute;
-    opacity: 0;
-    z-index: 1;
-}
-
-figure.compessoais h4 {
-    margin-top: 15px;
-    margin-bottom: 5px;
-    color: #232323;
-}
-
-figure.compessoais span {
-    font-size: 14px;
-    display: block;
-    color: black;
-}
-
-figure.compessoais i {
-    position: relative !important;
-    font-size: 18px;
-    background-color: #a43f49;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 5px;
-    color: #fff;
-}
-
-figure.compessoais:after {
-    background-color: #ffffff;
-    position: absolute;
-    content: "";
-    display: block;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    -webkit-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-    -webkit-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    opacity: 0;
-}
-
-figure.compessoais a {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-}
-
-figure.compessoais:hover figcaption,
-figure.compessoais.hover figcaption {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    opacity: 1;
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-figure.compessoais:hover:after,
-figure.compessoais.hover:after {
-    -webkit-transform: rotateX(0);
-    transform: rotateX(0);
-    opacity: 0.9;
-}
 
 /*cartões, tirado de: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card*/
 .flip-card {
@@ -1086,7 +995,7 @@ figure.compessoais.hover:after {
     width: 200px;
     height: 200px;
     perspective: 1000px;
-    margin: 20px;
+
 }
 
 .flip-card-inner {
