@@ -344,7 +344,7 @@ html {
 
     .white-button a:hover {
         background-color: transparent;
-        color: #fff;
+        color: #ff006a;
     }
 
 button {
@@ -361,13 +361,15 @@ button {
     outline: none;
     cursor: pointer;
 }
-
-
     button:hover {
         outline: none;
         background-color: transparent;
-        color: #fff;
+        
     }
+
+        button:hover h4 {
+            color: #ff006a;
+        }
 
     button:focus {
         outline: none;
@@ -375,7 +377,7 @@ button {
         color: #fff;
     }
 
-    
+
 
 
 /* Left & Right Post */
