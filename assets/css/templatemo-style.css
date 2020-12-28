@@ -333,40 +333,49 @@ html {
 .white-button a {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #fff;
+    background-color: transparent;
     color: #a43f49;
     font-size: 13px;
     font-weight: 800;
     letter-spacing: 0.5px;
-    text-transform: uppercase;
-    transition: all 0.5s;
+   /* text-transform: uppercase;*/
+    /*transition: all 0.5s;*/
 }
 
-.white-button a:hover {
-    background-color: #a43f49;
-    color: #fff;
-}
+    .white-button a:hover {
+        background-color: transparent;
+        color: #fff;
+    }
 
 button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #fff;
-    color: #a43f49;
+    background-color: transparent;
+    /*color: #a43f49;*/
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
-    text-transform: uppercase;
-    transition: all 0.5s;
+    /*text-transform: uppercase;*/
+    /*transition: all 0.5s;*/
     border: none;
     outline: none;
     cursor: pointer;
 }
 
-button:hover {
-    outline: none;
-    background-color: #a43f49;
-    color: #fff;
-}
+
+    button:hover {
+        outline: none;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    button:focus {
+        outline: none;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    
 
 
 /* Left & Right Post */
