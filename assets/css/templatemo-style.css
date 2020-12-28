@@ -1068,9 +1068,37 @@ span {
     font-size: 25px;
 }
 
-.card h4 {
-    color: black;
-    text-align: center;
-    font-size: 16px;
+.table {
+    background-color:rgba(255, 255, 255, 0.09);
 }
+
+    .table h4 {
+        color: black;
+        text-align: center;
+        font-size: 16px;
+       
+        font-weight: 500;
+    }
+
+    .table h3 {
+        font-size: 20px;
+    }
+
+    .table p {
+        font-size: 13px;
+    }
+.inst {
+    background-color:rgba(255, 255, 255, 0.65);
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    
+}
+
+    .inst img {
+        width: 195px;
+        height: 149px;
+    }
+
+
 
