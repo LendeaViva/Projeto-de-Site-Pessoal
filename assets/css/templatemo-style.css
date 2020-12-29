@@ -62,7 +62,7 @@ img {
 ul {
     padding: 0;
     margin: 0;
-    list-style: none;
+    list-style-type: none;
 }
 
 ul li {
@@ -1111,11 +1111,17 @@ span {
         height: 149px;
     }
 
+.profissional {
+        padding: 10px;
+    }
 
 .profissional ul {
-    padding: 0;
+    padding: 10px;
     margin: 0;
-    
     list-style-type: circle;
+}
+
+.profissional ul li {
+    display: list-item;
 }
 
