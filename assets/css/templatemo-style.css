@@ -1112,12 +1112,13 @@ span {
     }
 
 .profissional {
-        padding: 10px;
+        margin: 0px;
     }
 
 .profissional ul {
     padding: 10px;
     margin: 0;
+  
     list-style-type: circle;
 }
 
@@ -1125,3 +1126,14 @@ span {
     display: list-item;
 }
 
+/*Linha vertical*/
+
+.vl hr {
+    width: 5px;
+    height: 100%;
+    background: gray;
+    margin: 0px;
+    margin-left: 50%;
+    
+    
+}   
