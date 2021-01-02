@@ -832,6 +832,10 @@ section.contact-me {
     .isotope-toolbar {
         margin-bottom: 20px;
     }
+
+    .profissional {
+        font-size: 12px;
+    }
 }
 
 .animate-in {
