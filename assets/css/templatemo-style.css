@@ -906,7 +906,7 @@ section.contact-me {
 .skills {
     width: 40px;
     height: 40px;
-    display: inline;
+    /*display: inline;*/
     /*text-align: left;*/
     color: cornflowerblue;
     font-size: 25px;
@@ -915,6 +915,10 @@ section.contact-me {
     .skills p {
         color: white;
         font-size: 20px;
+    }
+
+    .skills ul li {
+        float: left;
     }
 
 /*Anéis retirados do tutorial: https://dev.to/vaibhavkhulbe/let-s-make-and-wear-those-css-3-progress-rings-2ngf */
