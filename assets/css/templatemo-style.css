@@ -920,8 +920,8 @@ section.contact-me {
 /*Anéis retirados do tutorial: https://dev.to/vaibhavkhulbe/let-s-make-and-wear-those-css-3-progress-rings-2ngf */
 
 .rings {
-    display: flex;
-    flex-direction: row;
+    /*display: flex;*/
+ /*   flex-direction: row;*/
     /*margin-left: 490px;*/
 }
 
@@ -1134,6 +1134,21 @@ span {
     background: gray;
     margin: 0px;
     margin-left: 50%;
+   
+}  
+
+.contactos{
+    background-color: rgba(255, 255, 255, 0.58);
+    color: black;
+    padding:10px;
+    margin-top: 2px;
+}
+
+.contactos-icones {
+    background-color: rgba(255, 255, 255, 0.58);
+    color: black;
+    padding: 10px;
+    margin-top: 2px;
+    font-size: 20px;
     
-    
-}   
+}
