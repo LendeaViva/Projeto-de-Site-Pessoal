@@ -28,6 +28,11 @@ namespace Site_v3_dinamico.Controllers
             return View();
         }
 
+        public IActionResult Sobre_mim()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
